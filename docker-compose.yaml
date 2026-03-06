@@ -3,7 +3,7 @@ version: "3.4"
 services:
   baserow:
     container_name: baserow
-    image: baserow/baserow:${BASEROW_VERSION:-2.0.6}
+    image: 'baserow/baserow:latest'
     restart: unless-stopped
     environment:
       # --- CONFIGURATION PRINCIPALE ---
